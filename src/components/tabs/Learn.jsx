@@ -286,17 +286,18 @@ const LearnTab = () => {
             </div>
           ))}
         </div>
-        <p
+        <i
           style={{
-            fontSize: 12,
-            color: C.inkSoft,
+            fontSize: 14,
+            fontWeight: 1000,
+            color: C.ink,
             marginBottom: 0,
             marginTop: 14,
           }}
         >
           Investments can fall as well as rise. This app is for learning, not
           financial advice.
-        </p>
+        </i>
       </Card>
     </div>
   );
